@@ -1,0 +1,13 @@
+﻿using System;
+
+namespace ClassEr
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Character char1 = new Character(1, "Ornn", "Human", "Warrior", "BladeMaster", 80);
+            char1.displayCharacter();
+        }
+    }
+}
