@@ -1,0 +1,6 @@
+C:\Users\student.MCK-KTITS\Documents\star\ThreadsIt\ThreadsIt\bin\Debug\ThreadsIt.exe.config
+C:\Users\student.MCK-KTITS\Documents\star\ThreadsIt\ThreadsIt\bin\Debug\ThreadsIt.exe
+C:\Users\student.MCK-KTITS\Documents\star\ThreadsIt\ThreadsIt\bin\Debug\ThreadsIt.pdb
+C:\Users\student.MCK-KTITS\Documents\star\ThreadsIt\ThreadsIt\obj\Debug\ThreadsIt.csprojAssemblyReference.cache
+C:\Users\student.MCK-KTITS\Documents\star\ThreadsIt\ThreadsIt\obj\Debug\ThreadsIt.exe
+C:\Users\student.MCK-KTITS\Documents\star\ThreadsIt\ThreadsIt\obj\Debug\ThreadsIt.pdb
