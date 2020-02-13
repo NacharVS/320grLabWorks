@@ -1,0 +1,6 @@
+C:\Users\student.MCK-KTITS\Documents\star\GameMaket\GameMaket\bin\Debug\GameMaket.exe.config
+C:\Users\student.MCK-KTITS\Documents\star\GameMaket\GameMaket\bin\Debug\GameMaket.exe
+C:\Users\student.MCK-KTITS\Documents\star\GameMaket\GameMaket\bin\Debug\GameMaket.pdb
+C:\Users\student.MCK-KTITS\Documents\star\GameMaket\GameMaket\obj\Debug\GameMaket.csprojAssemblyReference.cache
+C:\Users\student.MCK-KTITS\Documents\star\GameMaket\GameMaket\obj\Debug\GameMaket.exe
+C:\Users\student.MCK-KTITS\Documents\star\GameMaket\GameMaket\obj\Debug\GameMaket.pdb
