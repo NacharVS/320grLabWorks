@@ -11,7 +11,7 @@ namespace Account
         public new static List<Weapon> weapon = new List<Weapon>();
 
         public Weapon(string WeaponDamage, string WeaponName, Weapon Weapon, Equipment Equipment) : base(Weapon, Equipment)
-        {
+        {        
             weaponName = WeaponName;
             weaponDamage = WeaponDamage;
             weapon.Add(this);
