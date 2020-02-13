@@ -1,0 +1,6 @@
+C:\Users\student.MCK-KTITS\Desktop\ТАСК\ТАСК\bin\Debug\ТАСК.exe.config
+C:\Users\student.MCK-KTITS\Desktop\ТАСК\ТАСК\bin\Debug\ТАСК.exe
+C:\Users\student.MCK-KTITS\Desktop\ТАСК\ТАСК\bin\Debug\ТАСК.pdb
+C:\Users\student.MCK-KTITS\Desktop\ТАСК\ТАСК\obj\Debug\ТАСК.csprojAssemblyReference.cache
+C:\Users\student.MCK-KTITS\Desktop\ТАСК\ТАСК\obj\Debug\ТАСК.exe
+C:\Users\student.MCK-KTITS\Desktop\ТАСК\ТАСК\obj\Debug\ТАСК.pdb
