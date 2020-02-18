@@ -1,0 +1,6 @@
+C:\Users\student.MCK-KTITS\Documents\star\AsnSys\AsnSys\bin\Debug\AsnSys.exe.config
+C:\Users\student.MCK-KTITS\Documents\star\AsnSys\AsnSys\bin\Debug\AsnSys.exe
+C:\Users\student.MCK-KTITS\Documents\star\AsnSys\AsnSys\bin\Debug\AsnSys.pdb
+C:\Users\student.MCK-KTITS\Documents\star\AsnSys\AsnSys\obj\Debug\AsnSys.csprojAssemblyReference.cache
+C:\Users\student.MCK-KTITS\Documents\star\AsnSys\AsnSys\obj\Debug\AsnSys.exe
+C:\Users\student.MCK-KTITS\Documents\star\AsnSys\AsnSys\obj\Debug\AsnSys.pdb
