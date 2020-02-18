@@ -5,44 +5,66 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Threading;
 
-namespace ConsoleApp1
+namespace ParallelPotock
 {
     class Program
     {
-        static void Str()
-        {
-            string result = "";
-            for (int i = 1; i <= 7; i++)
-            {
-                Console.WriteLine("*");
-            }
-            Thread.Sleep(8000);
-            Console.WriteLine(result);
-        }
-        static void Str2()
-        {
-            string result = "";
-            for (int i = 1; i <= 7; i++)
-            {
-                Console.WriteLine("#");
-            }
-            Thread.Sleep(8000);
-            Console.WriteLine(result);
-        }
-        // определение асинхронного метода
-        static async void StrAsync()
-        {
-            Console.WriteLine("Начало метода FactorialAsync"); // выполняется синхронно
-            await Task.Run(() => Str());
-            await Task.Run(() => Str2());
-            // выполняется асинхронно
-            Console.WriteLine("Конец метода FactorialAsync");
-        }
-
         static void Main(string[] args)
         {
-            StrAsync();   // вызов асинхронного метода
-            Console.Read();
+            int[] m1 = new int[4];
+            int[] m2 = new int[4];
+            int[] m3 = new int[4];
+
+            int sum = 0;
+            int otv;
+
+            Random rnd = new Random();
+            Task write = Task.Run(() =>
+            {
+                Console.WriteLine("начало");
+
+                for (int i = 0; i < 4; i++)
+                {
+                    m1[i] = rnd.Next(-10, 10);
+                    Console.Write(m1[i]+",");
+                    m2[i] = rnd.Next(-10, 10);
+                    Console.Write(m2[i] + ",");
+                    m3[i] = rnd.Next(-10, 10);
+                    Console.Write(m3[i] + ",");
+                    Console.WriteLine();
+                    
+                }
+
+            });
+
+            Task Sum = Task.Run(() =>
+            {
+
+                for (int i = 0; i < 4; i++)
+                {
+                    Thread.Sleep(500);
+                    sum = m1[i] + m2[i];
+                    Console.WriteLine("сложение: " + sum);
+
+                }
+            });
+
+            Task Raz = Task.Run(() =>
+            {
+
+                for (int i = 0; i < 4; i++)
+                {
+                    Thread.Sleep(750);
+                    otv = sum - m3[i];
+                    Console.WriteLine("вычитание: " + otv);
+                }
+            }
+            );
+            Raz.Wait();
+
+            Console.ReadKey();
         }
     }
+
 }
+
