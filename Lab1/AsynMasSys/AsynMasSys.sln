@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29806.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsynMasSys", "AsynMasSys\AsynMasSys.csproj", "{CD23ACF7-4538-43C5-981A-2387E5FF9C58}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CD23ACF7-4538-43C5-981A-2387E5FF9C58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD23ACF7-4538-43C5-981A-2387E5FF9C58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD23ACF7-4538-43C5-981A-2387E5FF9C58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD23ACF7-4538-43C5-981A-2387E5FF9C58}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {04F47129-D707-4E4D-83A9-0FCD9800DEF9}
+	EndGlobalSection
+EndGlobal

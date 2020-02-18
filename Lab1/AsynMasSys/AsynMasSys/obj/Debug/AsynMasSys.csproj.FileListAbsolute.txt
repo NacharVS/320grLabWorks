@@ -1,0 +1,6 @@
+C:\Users\student.MCK-KTITS\Documents\star\AsynMasSys\AsynMasSys\bin\Debug\AsynMasSys.exe.config
+C:\Users\student.MCK-KTITS\Documents\star\AsynMasSys\AsynMasSys\bin\Debug\AsynMasSys.exe
+C:\Users\student.MCK-KTITS\Documents\star\AsynMasSys\AsynMasSys\bin\Debug\AsynMasSys.pdb
+C:\Users\student.MCK-KTITS\Documents\star\AsynMasSys\AsynMasSys\obj\Debug\AsynMasSys.csprojAssemblyReference.cache
+C:\Users\student.MCK-KTITS\Documents\star\AsynMasSys\AsynMasSys\obj\Debug\AsynMasSys.exe
+C:\Users\student.MCK-KTITS\Documents\star\AsynMasSys\AsynMasSys\obj\Debug\AsynMasSys.pdb
