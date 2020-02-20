@@ -26,6 +26,7 @@ namespace AsyncMass
             }
 
             Console.WriteLine("Массивы заполнены.");
+            Console.Write("> ");
         }
 
         public static int[] SummingMass(int[] mass1, int[] mass2)
@@ -102,21 +103,21 @@ namespace AsyncMass
         public static void Main(string[] args)
         {
             int[] mas1 = new int[15];
-            int[] mas2 = new int[15];
+            int[] mas2 = new int[15]; 
+
+            FillingMassAsync(mas1, mas2);
+            SummingMassAsync(mas1, mas2);
             
             Console.WriteLine("Выберите способ сортировки массива.");
             Console.WriteLine("1. По возрастанию");
-            Console.WriteLine("2. По убыванию.");
-            Console.Write("> ");
+            Console.WriteLine("2. По убыванию."); 
             int item = int.Parse(Console.ReadLine());
             if (item < 1 || item > 2)
             {
                 Console.Write("Некорректно. Повторите ввод: ");
                 item = int.Parse(Console.ReadLine());
             }
-
-            FillingMassAsync(mas1, mas2);
-            SummingMassAsync(mas1, mas2);
+            
             SortMass(massSum, item);
 
             Console.ReadKey();
