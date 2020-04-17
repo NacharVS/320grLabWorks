@@ -1,0 +1,1010 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v4.7.2": {
+      "Composite/1.5.5": {
+        "type": "package",
+        "dependencies": {
+          "FSharp.Core": "4.3.4"
+        },
+        "compile": {
+          "lib/netstandard2.0/Composite.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Composite.dll": {}
+        }
+      },
+      "Composite.Bson/1.0.7": {
+        "type": "package",
+        "dependencies": {
+          "Composite": "1.5.5",
+          "FSharp.Core": "4.3.4",
+          "Newtonsoft.Json.Bson": "1.0.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/Composite.Bson.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Composite.Bson.dll": {}
+        }
+      },
+      "FSharp.Core/4.3.4": {
+        "type": "package",
+        "compile": {
+          "lib/net45/FSharp.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net45/FSharp.Core.dll": {}
+        },
+        "resource": {
+          "lib/net45/cs/FSharp.Core.resources.dll": {
+            "locale": "cs"
+          },
+          "lib/net45/de/FSharp.Core.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net45/en/FSharp.Core.resources.dll": {
+            "locale": "en"
+          },
+          "lib/net45/es/FSharp.Core.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net45/fr/FSharp.Core.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net45/it/FSharp.Core.resources.dll": {
+            "locale": "it"
+          },
+          "lib/net45/ja/FSharp.Core.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net45/ko/FSharp.Core.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/net45/pl/FSharp.Core.resources.dll": {
+            "locale": "pl"
+          },
+          "lib/net45/pt-BR/FSharp.Core.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/net45/ru/FSharp.Core.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net45/tr/FSharp.Core.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/net45/zh-Hans/FSharp.Core.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "lib/net45/zh-Hant/FSharp.Core.resources.dll": {
+            "locale": "zh-Hant"
+          }
+        }
+      },
+      "MongoDB.Bson/2.10.3": {
+        "type": "package",
+        "compile": {
+          "lib/net452/MongoDB.Bson.dll": {}
+        },
+        "runtime": {
+          "lib/net452/MongoDB.Bson.dll": {}
+        }
+      },
+      "MongoDb.Bson.NodaTime/2.0.0": {
+        "type": "package",
+        "dependencies": {
+          "MongoDB.Driver": "2.3.0",
+          "NodaTime": "2.2.0"
+        },
+        "compile": {
+          "lib/net45/MongoDb.Bson.NodaTime.dll": {}
+        },
+        "runtime": {
+          "lib/net45/MongoDb.Bson.NodaTime.dll": {}
+        }
+      },
+      "MongoDB.Bson.signed/2.10.1": {
+        "type": "package",
+        "compile": {
+          "lib/net452/MongoDB.Bson.dll": {}
+        },
+        "runtime": {
+          "lib/net452/MongoDB.Bson.dll": {}
+        }
+      },
+      "MongoDB.Driver/2.3.0": {
+        "type": "package",
+        "dependencies": {
+          "MongoDB.Bson": "2.3.0",
+          "MongoDB.Driver.Core": "2.3.0"
+        },
+        "compile": {
+          "lib/net45/MongoDB.Driver.dll": {}
+        },
+        "runtime": {
+          "lib/net45/MongoDB.Driver.dll": {}
+        }
+      },
+      "MongoDB.Driver.Core/2.3.0": {
+        "type": "package",
+        "dependencies": {
+          "MongoDB.Bson": "2.3.0"
+        },
+        "compile": {
+          "lib/net45/MongoDB.Driver.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net45/MongoDB.Driver.Core.dll": {}
+        }
+      },
+      "Newtonsoft.Json/10.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        }
+      },
+      "Newtonsoft.Json.Bson/1.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "10.0.1"
+        },
+        "compile": {
+          "lib/net45/Newtonsoft.Json.Bson.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Newtonsoft.Json.Bson.dll": {}
+        }
+      },
+      "NodaTime/2.2.0": {
+        "type": "package",
+        "compile": {
+          "lib/net45/NodaTime.dll": {}
+        },
+        "runtime": {
+          "lib/net45/NodaTime.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.7.2/win": {
+      "Composite/1.5.5": {
+        "type": "package",
+        "dependencies": {
+          "FSharp.Core": "4.3.4"
+        },
+        "compile": {
+          "lib/netstandard2.0/Composite.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Composite.dll": {}
+        }
+      },
+      "Composite.Bson/1.0.7": {
+        "type": "package",
+        "dependencies": {
+          "Composite": "1.5.5",
+          "FSharp.Core": "4.3.4",
+          "Newtonsoft.Json.Bson": "1.0.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/Composite.Bson.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Composite.Bson.dll": {}
+        }
+      },
+      "FSharp.Core/4.3.4": {
+        "type": "package",
+        "compile": {
+          "lib/net45/FSharp.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net45/FSharp.Core.dll": {}
+        },
+        "resource": {
+          "lib/net45/cs/FSharp.Core.resources.dll": {
+            "locale": "cs"
+          },
+          "lib/net45/de/FSharp.Core.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net45/en/FSharp.Core.resources.dll": {
+            "locale": "en"
+          },
+          "lib/net45/es/FSharp.Core.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net45/fr/FSharp.Core.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net45/it/FSharp.Core.resources.dll": {
+            "locale": "it"
+          },
+          "lib/net45/ja/FSharp.Core.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net45/ko/FSharp.Core.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/net45/pl/FSharp.Core.resources.dll": {
+            "locale": "pl"
+          },
+          "lib/net45/pt-BR/FSharp.Core.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/net45/ru/FSharp.Core.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net45/tr/FSharp.Core.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/net45/zh-Hans/FSharp.Core.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "lib/net45/zh-Hant/FSharp.Core.resources.dll": {
+            "locale": "zh-Hant"
+          }
+        }
+      },
+      "MongoDB.Bson/2.10.3": {
+        "type": "package",
+        "compile": {
+          "lib/net452/MongoDB.Bson.dll": {}
+        },
+        "runtime": {
+          "lib/net452/MongoDB.Bson.dll": {}
+        }
+      },
+      "MongoDb.Bson.NodaTime/2.0.0": {
+        "type": "package",
+        "dependencies": {
+          "MongoDB.Driver": "2.3.0",
+          "NodaTime": "2.2.0"
+        },
+        "compile": {
+          "lib/net45/MongoDb.Bson.NodaTime.dll": {}
+        },
+        "runtime": {
+          "lib/net45/MongoDb.Bson.NodaTime.dll": {}
+        }
+      },
+      "MongoDB.Bson.signed/2.10.1": {
+        "type": "package",
+        "compile": {
+          "lib/net452/MongoDB.Bson.dll": {}
+        },
+        "runtime": {
+          "lib/net452/MongoDB.Bson.dll": {}
+        }
+      },
+      "MongoDB.Driver/2.3.0": {
+        "type": "package",
+        "dependencies": {
+          "MongoDB.Bson": "2.3.0",
+          "MongoDB.Driver.Core": "2.3.0"
+        },
+        "compile": {
+          "lib/net45/MongoDB.Driver.dll": {}
+        },
+        "runtime": {
+          "lib/net45/MongoDB.Driver.dll": {}
+        }
+      },
+      "MongoDB.Driver.Core/2.3.0": {
+        "type": "package",
+        "dependencies": {
+          "MongoDB.Bson": "2.3.0"
+        },
+        "compile": {
+          "lib/net45/MongoDB.Driver.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net45/MongoDB.Driver.Core.dll": {}
+        }
+      },
+      "Newtonsoft.Json/10.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        }
+      },
+      "Newtonsoft.Json.Bson/1.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "10.0.1"
+        },
+        "compile": {
+          "lib/net45/Newtonsoft.Json.Bson.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Newtonsoft.Json.Bson.dll": {}
+        }
+      },
+      "NodaTime/2.2.0": {
+        "type": "package",
+        "compile": {
+          "lib/net45/NodaTime.dll": {}
+        },
+        "runtime": {
+          "lib/net45/NodaTime.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.7.2/win-x64": {
+      "Composite/1.5.5": {
+        "type": "package",
+        "dependencies": {
+          "FSharp.Core": "4.3.4"
+        },
+        "compile": {
+          "lib/netstandard2.0/Composite.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Composite.dll": {}
+        }
+      },
+      "Composite.Bson/1.0.7": {
+        "type": "package",
+        "dependencies": {
+          "Composite": "1.5.5",
+          "FSharp.Core": "4.3.4",
+          "Newtonsoft.Json.Bson": "1.0.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/Composite.Bson.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Composite.Bson.dll": {}
+        }
+      },
+      "FSharp.Core/4.3.4": {
+        "type": "package",
+        "compile": {
+          "lib/net45/FSharp.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net45/FSharp.Core.dll": {}
+        },
+        "resource": {
+          "lib/net45/cs/FSharp.Core.resources.dll": {
+            "locale": "cs"
+          },
+          "lib/net45/de/FSharp.Core.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net45/en/FSharp.Core.resources.dll": {
+            "locale": "en"
+          },
+          "lib/net45/es/FSharp.Core.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net45/fr/FSharp.Core.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net45/it/FSharp.Core.resources.dll": {
+            "locale": "it"
+          },
+          "lib/net45/ja/FSharp.Core.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net45/ko/FSharp.Core.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/net45/pl/FSharp.Core.resources.dll": {
+            "locale": "pl"
+          },
+          "lib/net45/pt-BR/FSharp.Core.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/net45/ru/FSharp.Core.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net45/tr/FSharp.Core.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/net45/zh-Hans/FSharp.Core.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "lib/net45/zh-Hant/FSharp.Core.resources.dll": {
+            "locale": "zh-Hant"
+          }
+        }
+      },
+      "MongoDB.Bson/2.10.3": {
+        "type": "package",
+        "compile": {
+          "lib/net452/MongoDB.Bson.dll": {}
+        },
+        "runtime": {
+          "lib/net452/MongoDB.Bson.dll": {}
+        }
+      },
+      "MongoDb.Bson.NodaTime/2.0.0": {
+        "type": "package",
+        "dependencies": {
+          "MongoDB.Driver": "2.3.0",
+          "NodaTime": "2.2.0"
+        },
+        "compile": {
+          "lib/net45/MongoDb.Bson.NodaTime.dll": {}
+        },
+        "runtime": {
+          "lib/net45/MongoDb.Bson.NodaTime.dll": {}
+        }
+      },
+      "MongoDB.Bson.signed/2.10.1": {
+        "type": "package",
+        "compile": {
+          "lib/net452/MongoDB.Bson.dll": {}
+        },
+        "runtime": {
+          "lib/net452/MongoDB.Bson.dll": {}
+        }
+      },
+      "MongoDB.Driver/2.3.0": {
+        "type": "package",
+        "dependencies": {
+          "MongoDB.Bson": "2.3.0",
+          "MongoDB.Driver.Core": "2.3.0"
+        },
+        "compile": {
+          "lib/net45/MongoDB.Driver.dll": {}
+        },
+        "runtime": {
+          "lib/net45/MongoDB.Driver.dll": {}
+        }
+      },
+      "MongoDB.Driver.Core/2.3.0": {
+        "type": "package",
+        "dependencies": {
+          "MongoDB.Bson": "2.3.0"
+        },
+        "compile": {
+          "lib/net45/MongoDB.Driver.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net45/MongoDB.Driver.Core.dll": {}
+        }
+      },
+      "Newtonsoft.Json/10.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        }
+      },
+      "Newtonsoft.Json.Bson/1.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "10.0.1"
+        },
+        "compile": {
+          "lib/net45/Newtonsoft.Json.Bson.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Newtonsoft.Json.Bson.dll": {}
+        }
+      },
+      "NodaTime/2.2.0": {
+        "type": "package",
+        "compile": {
+          "lib/net45/NodaTime.dll": {}
+        },
+        "runtime": {
+          "lib/net45/NodaTime.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.7.2/win-x86": {
+      "Composite/1.5.5": {
+        "type": "package",
+        "dependencies": {
+          "FSharp.Core": "4.3.4"
+        },
+        "compile": {
+          "lib/netstandard2.0/Composite.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Composite.dll": {}
+        }
+      },
+      "Composite.Bson/1.0.7": {
+        "type": "package",
+        "dependencies": {
+          "Composite": "1.5.5",
+          "FSharp.Core": "4.3.4",
+          "Newtonsoft.Json.Bson": "1.0.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/Composite.Bson.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Composite.Bson.dll": {}
+        }
+      },
+      "FSharp.Core/4.3.4": {
+        "type": "package",
+        "compile": {
+          "lib/net45/FSharp.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net45/FSharp.Core.dll": {}
+        },
+        "resource": {
+          "lib/net45/cs/FSharp.Core.resources.dll": {
+            "locale": "cs"
+          },
+          "lib/net45/de/FSharp.Core.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net45/en/FSharp.Core.resources.dll": {
+            "locale": "en"
+          },
+          "lib/net45/es/FSharp.Core.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net45/fr/FSharp.Core.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net45/it/FSharp.Core.resources.dll": {
+            "locale": "it"
+          },
+          "lib/net45/ja/FSharp.Core.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net45/ko/FSharp.Core.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/net45/pl/FSharp.Core.resources.dll": {
+            "locale": "pl"
+          },
+          "lib/net45/pt-BR/FSharp.Core.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/net45/ru/FSharp.Core.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net45/tr/FSharp.Core.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/net45/zh-Hans/FSharp.Core.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "lib/net45/zh-Hant/FSharp.Core.resources.dll": {
+            "locale": "zh-Hant"
+          }
+        }
+      },
+      "MongoDB.Bson/2.10.3": {
+        "type": "package",
+        "compile": {
+          "lib/net452/MongoDB.Bson.dll": {}
+        },
+        "runtime": {
+          "lib/net452/MongoDB.Bson.dll": {}
+        }
+      },
+      "MongoDb.Bson.NodaTime/2.0.0": {
+        "type": "package",
+        "dependencies": {
+          "MongoDB.Driver": "2.3.0",
+          "NodaTime": "2.2.0"
+        },
+        "compile": {
+          "lib/net45/MongoDb.Bson.NodaTime.dll": {}
+        },
+        "runtime": {
+          "lib/net45/MongoDb.Bson.NodaTime.dll": {}
+        }
+      },
+      "MongoDB.Bson.signed/2.10.1": {
+        "type": "package",
+        "compile": {
+          "lib/net452/MongoDB.Bson.dll": {}
+        },
+        "runtime": {
+          "lib/net452/MongoDB.Bson.dll": {}
+        }
+      },
+      "MongoDB.Driver/2.3.0": {
+        "type": "package",
+        "dependencies": {
+          "MongoDB.Bson": "2.3.0",
+          "MongoDB.Driver.Core": "2.3.0"
+        },
+        "compile": {
+          "lib/net45/MongoDB.Driver.dll": {}
+        },
+        "runtime": {
+          "lib/net45/MongoDB.Driver.dll": {}
+        }
+      },
+      "MongoDB.Driver.Core/2.3.0": {
+        "type": "package",
+        "dependencies": {
+          "MongoDB.Bson": "2.3.0"
+        },
+        "compile": {
+          "lib/net45/MongoDB.Driver.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net45/MongoDB.Driver.Core.dll": {}
+        }
+      },
+      "Newtonsoft.Json/10.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        }
+      },
+      "Newtonsoft.Json.Bson/1.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "10.0.1"
+        },
+        "compile": {
+          "lib/net45/Newtonsoft.Json.Bson.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Newtonsoft.Json.Bson.dll": {}
+        }
+      },
+      "NodaTime/2.2.0": {
+        "type": "package",
+        "compile": {
+          "lib/net45/NodaTime.dll": {}
+        },
+        "runtime": {
+          "lib/net45/NodaTime.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Composite/1.5.5": {
+      "sha512": "9jYztUi9+muoYhSMkv7DDRoEz1RLs9Q4/13LzZIxUodFxAz1ZR44aTAy07Cs7upeOXHEJSer933ONips/DB2/Q==",
+      "type": "package",
+      "path": "composite/1.5.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "composite.1.5.5.nupkg.sha512",
+        "composite.nuspec",
+        "lib/netstandard2.0/Composite.dll",
+        "lib/netstandard2.0/Composite.xml"
+      ]
+    },
+    "Composite.Bson/1.0.7": {
+      "sha512": "iLmgkj9CzYigGGVFgRFzgmjU3Agax+ftE3XjVukOUZht0DHmuLF7HBqNfRt9KJaFla2cqvB6HQKKu3JiueN48w==",
+      "type": "package",
+      "path": "composite.bson/1.0.7",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "composite.bson.1.0.7.nupkg.sha512",
+        "composite.bson.nuspec",
+        "lib/netstandard2.0/Composite.Bson.dll",
+        "lib/netstandard2.0/Composite.Bson.xml"
+      ]
+    },
+    "FSharp.Core/4.3.4": {
+      "sha512": "u2UeaUl1pt/Lktdpzq3AsaRmOV1mOiQaSbZgYqQQYuqBSjnILWemetff4xMZIAZi0241jlIkcrJQsU5PlLwIJA==",
+      "type": "package",
+      "path": "fsharp.core/4.3.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "fsharp.core.4.3.4.nupkg.sha512",
+        "fsharp.core.nuspec",
+        "lib/net45/FSharp.Core.dll",
+        "lib/net45/FSharp.Core.optdata",
+        "lib/net45/FSharp.Core.sigdata",
+        "lib/net45/FSharp.Core.xml",
+        "lib/net45/UnitTests/MockTypeProviders/cs/FSharp.Core.resources.dll",
+        "lib/net45/UnitTests/MockTypeProviders/de/FSharp.Core.resources.dll",
+        "lib/net45/UnitTests/MockTypeProviders/en/FSharp.Core.resources.dll",
+        "lib/net45/UnitTests/MockTypeProviders/es/FSharp.Core.resources.dll",
+        "lib/net45/UnitTests/MockTypeProviders/fr/FSharp.Core.resources.dll",
+        "lib/net45/UnitTests/MockTypeProviders/it/FSharp.Core.resources.dll",
+        "lib/net45/UnitTests/MockTypeProviders/ja/FSharp.Core.resources.dll",
+        "lib/net45/UnitTests/MockTypeProviders/ko/FSharp.Core.resources.dll",
+        "lib/net45/UnitTests/MockTypeProviders/pl/FSharp.Core.resources.dll",
+        "lib/net45/UnitTests/MockTypeProviders/pt-BR/FSharp.Core.resources.dll",
+        "lib/net45/UnitTests/MockTypeProviders/ru/FSharp.Core.resources.dll",
+        "lib/net45/UnitTests/MockTypeProviders/tr/FSharp.Core.resources.dll",
+        "lib/net45/UnitTests/MockTypeProviders/zh-Hans/FSharp.Core.resources.dll",
+        "lib/net45/UnitTests/MockTypeProviders/zh-Hant/FSharp.Core.resources.dll",
+        "lib/net45/cs/FSharp.Core.resources.dll",
+        "lib/net45/de/FSharp.Core.resources.dll",
+        "lib/net45/en/FSharp.Core.resources.dll",
+        "lib/net45/es/FSharp.Core.resources.dll",
+        "lib/net45/fr/FSharp.Core.resources.dll",
+        "lib/net45/it/FSharp.Core.resources.dll",
+        "lib/net45/ja/FSharp.Core.resources.dll",
+        "lib/net45/ko/FSharp.Core.resources.dll",
+        "lib/net45/pl/FSharp.Core.resources.dll",
+        "lib/net45/pt-BR/FSharp.Core.resources.dll",
+        "lib/net45/ru/FSharp.Core.resources.dll",
+        "lib/net45/tr/FSharp.Core.resources.dll",
+        "lib/net45/zh-Hans/FSharp.Core.resources.dll",
+        "lib/net45/zh-Hant/FSharp.Core.resources.dll",
+        "lib/netstandard1.6/FSharp.Core.dll",
+        "lib/netstandard1.6/FSharp.Core.optdata",
+        "lib/netstandard1.6/FSharp.Core.sigdata",
+        "lib/netstandard1.6/FSharp.Core.xml",
+        "lib/netstandard1.6/cs/FSharp.Core.resources.dll",
+        "lib/netstandard1.6/de/FSharp.Core.resources.dll",
+        "lib/netstandard1.6/en/FSharp.Core.resources.dll",
+        "lib/netstandard1.6/es/FSharp.Core.resources.dll",
+        "lib/netstandard1.6/fr/FSharp.Core.resources.dll",
+        "lib/netstandard1.6/it/FSharp.Core.resources.dll",
+        "lib/netstandard1.6/ja/FSharp.Core.resources.dll",
+        "lib/netstandard1.6/ko/FSharp.Core.resources.dll",
+        "lib/netstandard1.6/pl/FSharp.Core.resources.dll",
+        "lib/netstandard1.6/pt-BR/FSharp.Core.resources.dll",
+        "lib/netstandard1.6/ru/FSharp.Core.resources.dll",
+        "lib/netstandard1.6/tr/FSharp.Core.resources.dll",
+        "lib/netstandard1.6/zh-Hans/FSharp.Core.resources.dll",
+        "lib/netstandard1.6/zh-Hant/FSharp.Core.resources.dll"
+      ]
+    },
+    "MongoDB.Bson/2.10.3": {
+      "sha512": "UT6w7vsiXlCH7mABxj/NuaGR0KWfXIW5zP5RHW16JrviiygSoEb6fEUhs1QgrjdcNHP+gns1/T9Sfqi4KUPPew==",
+      "type": "package",
+      "path": "mongodb.bson/2.10.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "License.txt",
+        "lib/net452/MongoDB.Bson.dll",
+        "lib/net452/MongoDB.Bson.xml",
+        "lib/netstandard1.5/MongoDB.Bson.dll",
+        "lib/netstandard1.5/MongoDB.Bson.xml",
+        "mongodb.bson.2.10.3.nupkg.sha512",
+        "mongodb.bson.nuspec"
+      ]
+    },
+    "MongoDb.Bson.NodaTime/2.0.0": {
+      "sha512": "tcT3/RUcszQLK4n7vhPVLkplpm4Tc5VqQwY7YqTJxD2+sasu/vajDLIVPy4rauI17tjEcxSrN2K6S3aei7xTUw==",
+      "type": "package",
+      "path": "mongodb.bson.nodatime/2.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/MongoDb.Bson.NodaTime.dll",
+        "lib/netstandard1.5/MongoDb.Bson.NodaTime.dll",
+        "mongodb.bson.nodatime.2.0.0.nupkg.sha512",
+        "mongodb.bson.nodatime.nuspec"
+      ]
+    },
+    "MongoDB.Bson.signed/2.10.1": {
+      "sha512": "FI50Akh5SD5w2+xMnYDw1zWb9sk2i4UWlyZLqmj27lG5sTQyYe5AU5O9R1N7i5lGlFMw7T6Rndc/fxy74YJMqA==",
+      "type": "package",
+      "path": "mongodb.bson.signed/2.10.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "License.txt",
+        "lib/net452/MongoDB.Bson.dll",
+        "lib/net452/MongoDB.Bson.xml",
+        "lib/netstandard1.5/MongoDB.Bson.dll",
+        "lib/netstandard1.5/MongoDB.Bson.xml",
+        "mongodb.bson.signed.2.10.1.nupkg.sha512",
+        "mongodb.bson.signed.nuspec"
+      ]
+    },
+    "MongoDB.Driver/2.3.0": {
+      "sha512": "wq4rHgUorkGMn66TNQ4kDlh/u1DihK4bB+LdLgklP6Z7tpq3Y5It25daKrq6zcoLheCoBqhjBsKHUzrfG0KUfQ==",
+      "type": "package",
+      "path": "mongodb.driver/2.3.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "License.rtf",
+        "lib/net45/MongoDB.Driver.XML",
+        "lib/net45/MongoDB.Driver.dll",
+        "lib/netstandard1.5/MongoDB.Driver.dll",
+        "lib/netstandard1.5/MongoDB.Driver.xml",
+        "mongodb.driver.2.3.0.nupkg.sha512",
+        "mongodb.driver.nuspec"
+      ]
+    },
+    "MongoDB.Driver.Core/2.3.0": {
+      "sha512": "CaMUxfkDkTnRR5iQ/tlVRYtJyoUAl0ToSj9/fWfQb/GYt8veQzSqu6jOLE1+KT+2HMvL6kIhX08tam+xU+iycQ==",
+      "type": "package",
+      "path": "mongodb.driver.core/2.3.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "License.rtf",
+        "lib/net45/MongoDB.Driver.Core.XML",
+        "lib/net45/MongoDB.Driver.Core.dll",
+        "lib/netstandard1.5/MongoDB.Driver.Core.dll",
+        "lib/netstandard1.5/MongoDB.Driver.Core.xml",
+        "mongodb.driver.core.2.3.0.nupkg.sha512",
+        "mongodb.driver.core.nuspec"
+      ]
+    },
+    "Newtonsoft.Json/10.0.1": {
+      "sha512": "ebWzW9j2nwxQeBo59As2TYn7nYr9BHicqqCwHOD1Vdo+50HBtLPuqdiCYJcLdTRknpYis/DSEOQz5KmZxwrIAg==",
+      "type": "package",
+      "path": "newtonsoft.json/10.0.1",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.3/Newtonsoft.Json.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.xml",
+        "lib/portable-net45+win8+wpa81+wp8/Newtonsoft.Json.dll",
+        "lib/portable-net45+win8+wpa81+wp8/Newtonsoft.Json.xml",
+        "newtonsoft.json.10.0.1.nupkg.sha512",
+        "newtonsoft.json.nuspec",
+        "tools/install.ps1"
+      ]
+    },
+    "Newtonsoft.Json.Bson/1.0.1": {
+      "sha512": "5PYT/IqQ+UK31AmZiSS102R6EsTo+LGTSI8bp7WAUqDKaF4wHXD8U9u4WxTI1vc64tYi++8p3dk3WWNqPFgldw==",
+      "type": "package",
+      "path": "newtonsoft.json.bson/1.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/Newtonsoft.Json.Bson.dll",
+        "lib/net45/Newtonsoft.Json.Bson.xml",
+        "lib/netstandard1.3/Newtonsoft.Json.Bson.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.Bson.xml",
+        "newtonsoft.json.bson.1.0.1.nupkg.sha512",
+        "newtonsoft.json.bson.nuspec"
+      ]
+    },
+    "NodaTime/2.2.0": {
+      "sha512": "D04k0P/s/E39TBkRfUTbumAlrgvoSsEG4jLza3L/+5e9Rm51ceiu6ctIoM2C5bjlOJ/hX1iFYDbLXfP9XoypjA==",
+      "type": "package",
+      "path": "nodatime/2.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/NodaTime.dll",
+        "lib/net45/NodaTime.pdb",
+        "lib/net45/NodaTime.xml",
+        "lib/netstandard1.3/NodaTime.dll",
+        "lib/netstandard1.3/NodaTime.pdb",
+        "lib/netstandard1.3/NodaTime.xml",
+        "nodatime.2.2.0.nupkg.sha512",
+        "nodatime.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v4.7.2": [
+      "Composite >= 1.5.5",
+      "Composite.Bson >= 1.0.7",
+      "FSharp.Core >= 4.3.4",
+      "MongoDB.Bson >= 2.10.3",
+      "MongoDB.Bson.signed >= 2.10.1",
+      "MongoDB.Driver >= 2.3.0",
+      "MongoDB.Driver.Core >= 2.3.0",
+      "MongoDb.Bson.NodaTime >= 2.0.0",
+      "Newtonsoft.Json >= 10.0.1",
+      "Newtonsoft.Json.Bson >= 1.0.1",
+      "NodaTime >= 2.2.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\ermee\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\ermee\\Desktop\\KEK\\1.study\\Mafia\\Mafia\\Mafia.csproj",
+      "projectName": "Mafia",
+      "projectPath": "C:\\Users\\ermee\\Desktop\\KEK\\1.study\\Mafia\\Mafia\\Mafia.csproj",
+      "packagesPath": "C:\\Users\\ermee\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ermee\\Desktop\\KEK\\1.study\\Mafia\\Mafia\\obj\\",
+      "projectStyle": "PackageReference",
+      "skipContentFileWrite": true,
+      "fallbackFolders": [
+        "C:\\Microsoft\\Xamarin\\NuGet\\"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\ermee\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net472"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net472": {
+          "projectReferences": {}
+        }
+      }
+    },
+    "frameworks": {
+      "net472": {
+        "dependencies": {
+          "Composite": {
+            "target": "Package",
+            "version": "[1.5.5, )"
+          },
+          "Composite.Bson": {
+            "target": "Package",
+            "version": "[1.0.7, )"
+          },
+          "FSharp.Core": {
+            "target": "Package",
+            "version": "[4.3.4, )"
+          },
+          "MongoDB.Bson": {
+            "target": "Package",
+            "version": "[2.10.3, )"
+          },
+          "MongoDB.Bson.signed": {
+            "target": "Package",
+            "version": "[2.10.1, )"
+          },
+          "MongoDB.Driver": {
+            "target": "Package",
+            "version": "[2.3.0, )"
+          },
+          "MongoDB.Driver.Core": {
+            "target": "Package",
+            "version": "[2.3.0, )"
+          },
+          "MongoDb.Bson.NodaTime": {
+            "target": "Package",
+            "version": "[2.0.0, )"
+          },
+          "Newtonsoft.Json": {
+            "target": "Package",
+            "version": "[10.0.1, )"
+          },
+          "Newtonsoft.Json.Bson": {
+            "target": "Package",
+            "version": "[1.0.1, )"
+          },
+          "NodaTime": {
+            "target": "Package",
+            "version": "[2.2.0, )"
+          }
+        }
+      }
+    },
+    "runtimes": {
+      "win": {
+        "#import": []
+      },
+      "win-x64": {
+        "#import": []
+      },
+      "win-x86": {
+        "#import": []
+      }
+    }
+  }
+}

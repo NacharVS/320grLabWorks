@@ -1,0 +1,20 @@
+{
+  "version": 2,
+  "dgSpecHash": "ml4A3nGDWYHllKVLMTbNBQ7AJI/+sxvkrLyTewPkdrmWsjZaBTREbJzi+Ey7guE9PItkbezGl+YeeoT3SHk/Uw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\ermee\\Desktop\\KEK\\1.study\\Mafia\\Mafia\\Mafia.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ermee\\.nuget\\packages\\composite\\1.5.5\\composite.1.5.5.nupkg.sha512",
+    "C:\\Users\\ermee\\.nuget\\packages\\composite.bson\\1.0.7\\composite.bson.1.0.7.nupkg.sha512",
+    "C:\\Users\\ermee\\.nuget\\packages\\fsharp.core\\4.3.4\\fsharp.core.4.3.4.nupkg.sha512",
+    "C:\\Users\\ermee\\.nuget\\packages\\mongodb.bson\\2.10.3\\mongodb.bson.2.10.3.nupkg.sha512",
+    "C:\\Users\\ermee\\.nuget\\packages\\mongodb.bson.nodatime\\2.0.0\\mongodb.bson.nodatime.2.0.0.nupkg.sha512",
+    "C:\\Users\\ermee\\.nuget\\packages\\mongodb.bson.signed\\2.10.1\\mongodb.bson.signed.2.10.1.nupkg.sha512",
+    "C:\\Users\\ermee\\.nuget\\packages\\mongodb.driver\\2.3.0\\mongodb.driver.2.3.0.nupkg.sha512",
+    "C:\\Users\\ermee\\.nuget\\packages\\mongodb.driver.core\\2.3.0\\mongodb.driver.core.2.3.0.nupkg.sha512",
+    "C:\\Users\\ermee\\.nuget\\packages\\newtonsoft.json\\10.0.1\\newtonsoft.json.10.0.1.nupkg.sha512",
+    "C:\\Users\\ermee\\.nuget\\packages\\newtonsoft.json.bson\\1.0.1\\newtonsoft.json.bson.1.0.1.nupkg.sha512",
+    "C:\\Users\\ermee\\.nuget\\packages\\nodatime\\2.2.0\\nodatime.2.2.0.nupkg.sha512"
+  ],
+  "logs": []
+}

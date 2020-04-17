@@ -1,0 +1,13 @@
+﻿<Application x:Class="Mafia.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:Mafia"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <SolidColorBrush x:Key="Dark" Color="#6e354c"/>
+        <SolidColorBrush x:Key="Blue" Color="#94cce0"/>
+        <SolidColorBrush x:Key="White" Color="#efefef"/>
+        <SolidColorBrush x:Key="Yellow" Color="#fbd367"/>
+
+    </Application.Resources>
+</Application>

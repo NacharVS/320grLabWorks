@@ -1,0 +1,332 @@
+﻿<Window x:Class="Mafia.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Mafia"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800"
+        Background="#efefef"
+        Loaded="Window_Loaded">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+
+        <GroupBox Grid.Column="0"
+                  Margin="10"
+                  Header="Registered users"
+                  Foreground="#6e354c"
+                  BorderBrush="#94cce0"
+                  BorderThickness="2"
+                  FontSize="15">
+            <ListBox x:Name="playerList" 
+                     Margin="10"
+                     Foreground="#6e354c"
+                     FontSize="13"
+                     BorderThickness="0"
+                     Background="#fbd367">
+                <ListBox.ItemTemplate>
+                    <DataTemplate>
+                        <Label Foreground="#6e354c"
+                               FontSize="13"
+                               Content="{Binding Path=Nickname}"/>
+                    </DataTemplate>
+                </ListBox.ItemTemplate>
+            </ListBox>
+        </GroupBox>
+        
+        <Grid Grid.Column="1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="0.5*"/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+
+            <GroupBox Grid.Row="0" 
+                      Margin="10"
+                      Header="Registretion"
+                      Foreground="#6e354c"
+                      BorderBrush="#94cce0"
+                      BorderThickness="2"
+                      FontSize="15">
+                <StackPanel VerticalAlignment="Center">
+                    <StackPanel Orientation="Horizontal">
+                        <Label Content="Nickname"
+                               Foreground="#6e354c"
+                               FontSize="13"/>
+
+                        <TextBox x:Name="nickname" 
+                                 Foreground="#6e354c"
+                                 BorderThickness="0"
+                                 Padding="3"
+                                 Background="#fbd367"
+                                 MinWidth="150"
+                                 Margin="5"/>
+                    </StackPanel>
+
+                    <StackPanel Orientation="Horizontal"
+                                HorizontalAlignment="Center">
+                        <Button x:Name="register" 
+                                Background="#94cce0"
+                                BorderThickness="0"
+                                Content="Register"
+                                Margin="5"
+                                FontSize="13"
+                                MinHeight="25"
+                                Foreground="#efefef"
+                                FontWeight="Bold"
+                                MinWidth="80" Click="register_Click"/>
+                        
+                        <Button x:Name="clear" 
+                                Background="#94cce0"
+                                BorderThickness="0"
+                                Content="Clear"
+                                Margin="5"
+                                FontSize="13"
+                                MinHeight="25"
+                                Foreground="#efefef"
+                                FontWeight="Bold"
+                                MinWidth="80" Click="clear_Click"/>
+                    </StackPanel>
+                </StackPanel>
+            </GroupBox>
+
+            <GroupBox Grid.Row="1"
+                      Margin="10"
+                      Header="Role selection"
+                      Foreground="#6e354c"
+                      BorderBrush="#94cce0"
+                      BorderThickness="2"
+                      FontSize="15">
+                <StackPanel Orientation="Horizontal">
+                    <StackPanel VerticalAlignment="Center">
+                        <Button x:Name="setRole" 
+                                Background="#94cce0"
+                                BorderThickness="0"
+                                Content="Set role"
+                                Margin="5, 15, 5, 15"
+                                FontSize="13"
+                                MinHeight="25"
+                                Foreground="#efefef"
+                                FontWeight="Bold"
+                                MinWidth="130" Click="setRole_Click"/>
+                        
+                        <Button x:Name="rerole"
+                                Visibility="Collapsed"
+                                Background="#94cce0"
+                                BorderThickness="0"
+                                Content="Rerole"
+                                Margin="5, 15, 5, 15"
+                                FontSize="13"
+                                MinHeight="25"
+                                Foreground="#efefef"
+                                FontWeight="Bold"
+                                MinWidth="100"/>
+                        
+                        <Button x:Name="clearRole" 
+                                Background="#94cce0"
+                                BorderThickness="0"
+                                Content="Clear role"
+                                Margin="5, 15, 5, 15"
+                                FontSize="13"
+                                MinHeight="25"
+                                Foreground="#efefef"
+                                FontWeight="Bold"
+                                MinWidth="100" 
+                                Click="clearRole_Click"/>
+                        
+                        <Button x:Name="randomRole" 
+                                Background="#94cce0"
+                                BorderThickness="0"
+                                Content="Random role"
+                                Margin="5, 15, 5, 15"
+                                FontSize="13"
+                                MinHeight="25"
+                                Foreground="#efefef"
+                                FontWeight="Bold"
+                                MinWidth="100"
+                                Click="randomRole_Click"/>
+                    </StackPanel>
+
+                    <StackPanel VerticalAlignment="Center">
+                        <RadioButton x:Name="mafiaRadioButton"
+                                     Content="Mafia"
+                                     FontSize="13"
+                                     Foreground="#6e354c"
+                                     Margin="10"/>
+                        
+                        <RadioButton x:Name="bossRadioButton"
+                                     Content="Boss"
+                                     FontSize="13"
+                                     Foreground="#6e354c"
+                                     Margin="10"/>
+                        
+                        <RadioButton x:Name="SherifRadioButton"
+                                     Content="Sherif"
+                                     FontSize="13"
+                                     Foreground="#6e354c"
+                                     Margin="10"/>
+                        
+                        <RadioButton x:Name="doctorRadioButton"
+                                     Content="Doctor"
+                                     FontSize="13"
+                                     Foreground="#6e354c"
+                                     Margin="10"/>
+                        
+                        <RadioButton x:Name="maniacRadioButton"
+                                     Content="Maniac"
+                                     FontSize="13"
+                                     Foreground="#6e354c"
+                                     Margin="10"/>
+                        
+                        <RadioButton x:Name="citizenRadioButton"
+                                     Content="Citizen"
+                                     FontSize="13"
+                                     Foreground="#6e354c"
+                                     Margin="10"/>
+                    </StackPanel>
+                </StackPanel>
+            </GroupBox>
+        </Grid>
+
+        <Grid Grid.Column="2">
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition Height="0.5*"/>
+            </Grid.RowDefinitions>
+
+            <GroupBox Grid.Row="0" 
+                      Margin="10"
+                      Header="In game"
+                      Foreground="#6e354c"
+                      BorderBrush="#94cce0"
+                      BorderThickness="2"
+                      FontSize="15">
+                <StackPanel Orientation="Horizontal">
+                    <StackPanel VerticalAlignment="Center">
+                        <Label Content="Mafias:"
+                               Foreground="#6e354c"
+                               FontSize="13"
+                               Margin="5"/>
+                        
+                        <Label Content="Boss:"
+                               Foreground="#6e354c"
+                               FontSize="13"
+                               Margin="5"/>
+                        
+                        <Label Content="Sherif:"
+                               Foreground="#6e354c"
+                               FontSize="13"
+                               Margin="5"/>
+                        
+                        <Label Content="Doctor:"
+                               Foreground="#6e354c"
+                               FontSize="13"
+                               Margin="5"/>
+                        
+                        <Label Content="Maniac:"
+                               Foreground="#6e354c"
+                               FontSize="13"
+                               Margin="5"/>
+                        
+                        <Label Content="Citizens:"
+                               Foreground="#6e354c"
+                               FontSize="13"
+                               Margin="5"/>
+                        
+                    </StackPanel>
+
+                    <StackPanel VerticalAlignment="Center">
+                        <ComboBox x:Name="mafiaList"
+                                  Background="#fbd367"
+                                  FontSize="13"
+                                  Foreground="#6e354c"
+                                  MinWidth="150"
+                                  Margin="5">
+                            
+                        </ComboBox>
+
+                        <Label x:Name="bossSet" 
+                               Content="*unsetted*"
+                               Foreground="#6e354c"
+                               FontSize="13"
+                               Margin="5"/>
+
+                        <Label x:Name="sherifSet" 
+                               Content="*unsetted*"
+                               Foreground="#6e354c"
+                               FontSize="13"
+                               Margin="5"/>
+
+                        <Label x:Name="doctorSet" 
+                               Content="*unsetted*"
+                               Foreground="#6e354c"
+                               FontSize="13"
+                               Margin="5"/>
+
+                        <Label x:Name="maniacSet" 
+                               Content="*unsetted*"
+                               Foreground="#6e354c"
+                               FontSize="13"
+                               Margin="5"/>
+
+                        <ComboBox x:Name="citizensList"
+                                  Background="#fbd367"
+                                  FontSize="13"
+                                  Foreground="#6e354c"
+                                  MinWidth="150"
+                                  Margin="5">
+
+                        </ComboBox>
+                    </StackPanel>
+                </StackPanel>
+            </GroupBox>
+
+            <GroupBox Grid.Row="1"
+                      Margin="10"
+                      Header="Teams"
+                      Foreground="#6e354c"
+                      BorderBrush="#94cce0"
+                      BorderThickness="2"
+                      FontSize="15">
+                <StackPanel VerticalAlignment="Center"
+                            Margin="5">
+                    <ComboBox x:Name="teamsList"
+                              Background="#fbd367"
+                              FontSize="13"
+                              Foreground="#6e354c"
+                              MinWidth="150"
+                              SelectionChanged="teamsList_SelectionChanged"/>
+
+                    <Label Content="Team name:"
+                           Foreground="#6e354c"
+                           FontSize="13"/>
+
+                    <StackPanel Orientation="Horizontal">
+                        <TextBox x:Name="teamName" 
+                                 VerticalContentAlignment="Center"
+                                 Foreground="#6e354c"
+                                 BorderThickness="0"
+                                 Background="#fbd367"
+                                 MinWidth="120"
+                                 Margin="5"/>
+
+                        <Button x:Name="save" 
+                                Background="#94cce0"
+                                BorderThickness="0"
+                                Content="Save team"
+                                Margin="5"
+                                FontSize="13"
+                                MinHeight="25"
+                                Foreground="#efefef"
+                                FontWeight="Bold"
+                                MinWidth="80" Click="save_Click"/>
+                    </StackPanel>
+                </StackPanel>
+            </GroupBox>
+        </Grid>
+        
+    </Grid>
+</Window>

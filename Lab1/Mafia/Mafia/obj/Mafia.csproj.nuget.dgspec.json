@@ -1,0 +1,101 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\ermee\\Desktop\\KEK\\1.study\\Mafia\\Mafia\\Mafia.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\ermee\\Desktop\\KEK\\1.study\\Mafia\\Mafia\\Mafia.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ermee\\Desktop\\KEK\\1.study\\Mafia\\Mafia\\Mafia.csproj",
+        "projectName": "Mafia",
+        "projectPath": "C:\\Users\\ermee\\Desktop\\KEK\\1.study\\Mafia\\Mafia\\Mafia.csproj",
+        "packagesPath": "C:\\Users\\ermee\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ermee\\Desktop\\KEK\\1.study\\Mafia\\Mafia\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ermee\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net472"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {
+          "dependencies": {
+            "Composite": {
+              "target": "Package",
+              "version": "[1.5.5, )"
+            },
+            "Composite.Bson": {
+              "target": "Package",
+              "version": "[1.0.7, )"
+            },
+            "FSharp.Core": {
+              "target": "Package",
+              "version": "[4.3.4, )"
+            },
+            "MongoDB.Bson": {
+              "target": "Package",
+              "version": "[2.10.3, )"
+            },
+            "MongoDB.Bson.signed": {
+              "target": "Package",
+              "version": "[2.10.1, )"
+            },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.3.0, )"
+            },
+            "MongoDB.Driver.Core": {
+              "target": "Package",
+              "version": "[2.3.0, )"
+            },
+            "MongoDb.Bson.NodaTime": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[10.0.1, )"
+            },
+            "Newtonsoft.Json.Bson": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            },
+            "NodaTime": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}
