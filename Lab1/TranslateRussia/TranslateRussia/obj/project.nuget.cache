@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "pdfZhhve0ii/CByCs/k32zwhovaWTDDhHCDUQaBvwXu8WZj/CT3KSn552Qzd6xIeiMINAuZunW8zKkKnUqGZcw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\ermee\\Desktop\\KEK\\1.study\\TranslateRussia\\TranslateRussia\\TranslateRussia.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ermee\\.nuget\\packages\\identitymodel\\4.2.0\\identitymodel.4.2.0.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\newtonsoft.json\\11.0.2\\newtonsoft.json.11.0.2.nupkg.sha512",
+    "C:\\Users\\ermee\\.nuget\\packages\\system.text.encodings.web\\4.6.0\\system.text.encodings.web.4.6.0.nupkg.sha512"
+  ],
+  "logs": []
+}
